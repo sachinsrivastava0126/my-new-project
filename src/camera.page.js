@@ -1,7 +1,6 @@
 // src/camera.page.js file
 import React, {useState, useRef, useEffect}  from 'react';
 import { View, Text } from 'react-native';
-import * as Permissions from 'expo-permissions';
 import { Camera } from 'expo-camera';
 import Toolbar from './toolbar.component';
 import Gallery from './gallery.component';
